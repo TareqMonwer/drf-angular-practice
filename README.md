@@ -10,3 +10,8 @@
 + create `virtualenv` (use `venv` or `env` as `virtualenv` name) and activate it.
 + run `pip install -r requirements.txt`
 + run `python manage.py runserver`, and you're all set!
+
+
+# API Doc:
++ Browse `/swagger` for swagger documentation.
++ Browse `/redoc` for redoc documentation.
