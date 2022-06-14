@@ -1,0 +1,137 @@
+[
+    {
+        "model": "shop.category",
+        "pk": 1,
+        "fields": {
+            "name": "Books",
+            "slug": "books"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 2,
+        "fields": {
+            "name": "IT Gadgets",
+            "slug": "it-gadgets"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 1,
+        "fields": {
+            "uuid": "2ea608ce-0611-451f-b973-bbadc47d2286",
+            "name": "Grokking Algorithms",
+            "category": 1,
+            "slug": "grokking-algorithms",
+            "image": "",
+            "description": "",
+            "price": "50.00",
+            "created_at": "2022-06-14T03:25:58.150Z",
+            "updated_at": "2022-06-14T03:28:27.662Z",
+            "created": "2022-06-14T03:25:58.150Z",
+            "modified": "2022-06-14T03:28:27.662Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 2,
+        "fields": {
+            "uuid": "ed9112ed-0200-40d9-a6b2-7a047663e5e0",
+            "name": "Apple Watch",
+            "category": 2,
+            "slug": "apple-watch",
+            "image": "products/2022/06/14/apple-watch.jpg",
+            "description": "",
+            "price": "900.00",
+            "created_at": "2022-06-14T03:26:33.013Z",
+            "updated_at": "2022-06-14T03:26:33.013Z",
+            "created": "2022-06-14T03:26:33.013Z",
+            "modified": "2022-06-14T03:26:33.013Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 3,
+        "fields": {
+            "uuid": "75632cab-b71b-4927-a4a4-d8441e4dce6f",
+            "name": "Bang Loudspeaker",
+            "category": 2,
+            "slug": "bang-loudspeaker",
+            "image": "products/2022/06/14/bang-loudspeaker.jpg",
+            "description": "",
+            "price": "300.00",
+            "created_at": "2022-06-14T03:28:41.265Z",
+            "updated_at": "2022-06-14T03:28:41.265Z",
+            "created": "2022-06-14T03:28:41.265Z",
+            "modified": "2022-06-14T03:28:41.265Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 4,
+        "fields": {
+            "uuid": "33acfd83-14ae-4af6-8080-0b04b253eb8b",
+            "name": "Dolce & Gabanna Print Headphone",
+            "category": 2,
+            "slug": "dolce-gabanna-print-headphone",
+            "image": "products/2022/06/14/dolce-gabanna-print-headphones.jpeg",
+            "description": "",
+            "price": "150.00",
+            "created_at": "2022-06-14T03:28:56.301Z",
+            "updated_at": "2022-06-14T03:28:56.301Z",
+            "created": "2022-06-14T03:28:56.301Z",
+            "modified": "2022-06-14T03:28:56.301Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 5,
+        "fields": {
+            "uuid": "c2ad7fc3-bc7a-4638-829c-95b1f114a5cb",
+            "name": "GoPro Ero4 Camrecorder",
+            "category": 2,
+            "slug": "gopro-ero4-camrecorder",
+            "image": "",
+            "description": "",
+            "price": "300.00",
+            "created_at": "2022-06-14T03:29:13.481Z",
+            "updated_at": "2022-06-14T03:29:13.481Z",
+            "created": "2022-06-14T03:29:13.481Z",
+            "modified": "2022-06-14T03:29:13.481Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 6,
+        "fields": {
+            "uuid": "cb37550a-b443-4b24-a825-bbb2239eeaf8",
+            "name": "UG Wine Cooler",
+            "category": 2,
+            "slug": "ug-wine-cooler",
+            "image": "",
+            "description": "",
+            "price": "250.00",
+            "created_at": "2022-06-14T03:29:36.345Z",
+            "updated_at": "2022-06-14T03:29:36.345Z",
+            "created": "2022-06-14T03:29:36.345Z",
+            "modified": "2022-06-14T03:29:36.345Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 7,
+        "fields": {
+            "uuid": "ea95ce99-273e-4495-a644-cf41557f6977",
+            "name": "Head First Design Patterns",
+            "category": 1,
+            "slug": "head-first-design-patterns",
+            "image": "products/2022/06/14/head-first-design-patterns.jpg",
+            "description": "",
+            "price": "80.00",
+            "created_at": "2022-06-14T03:29:57.025Z",
+            "updated_at": "2022-06-14T03:29:57.025Z",
+            "created": "2022-06-14T03:29:57.025Z",
+            "modified": "2022-06-14T03:29:57.025Z"
+        }
+    }
+]
