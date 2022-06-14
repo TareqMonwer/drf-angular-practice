@@ -2,4 +2,5 @@ Django==3.1
 django-cors-headers==3.11
 djangorestframework==3.12
 djangorestframework-simplejwt==5.2.0 
-drf-yasg2==1.19.4 
+drf-yasg2==1.19.4
+Pillow==9.1.1

@@ -27,8 +27,9 @@ urlpatterns = [
     re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path('token/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('api-auth/', include('rest_framework.urls')),
+    path('auth/', include('rest_framework.urls')),
     path('admin/', admin.site.urls),
-    path('', include('users.urls')),
+    path('shop/', include('shop.urls')),
     path('tasks/', include('tasks.urls')),
+    path('', include('users.urls')),
 ]
