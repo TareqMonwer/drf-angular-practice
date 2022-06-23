@@ -3,8 +3,10 @@ from rest_framework import permissions
 from drf_yasg2.views import get_schema_view
 from drf_yasg2 import openapi
 from django.contrib import admin
+from django.conf.urls.static import static
 from django.urls import path, include, re_path
 
+from config import settings
 from users.views import CustomTokenObtainPairView
 
 
@@ -33,3 +35,8 @@ urlpatterns = [
     path('tasks/', include('tasks.urls')),
     path('', include('users.urls')),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(
+        settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
+    )
